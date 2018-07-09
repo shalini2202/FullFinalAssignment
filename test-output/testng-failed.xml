@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Browser" value="ie"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="codeBase.TestScript.MainScript">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="addToCart"/>
+          <include name="afterTest"/>
+          <include name="deleteFromCart"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- codeBase.TestScript.MainScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
